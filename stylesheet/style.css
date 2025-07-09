@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 header, .section-one, footer {
@@ -39,4 +40,50 @@ header, .section-one {
   color: #E5E7EB;
   text-decoration: none;
   margin-left: 15px;
+}
+
+.section-one {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 100px 40px;
+}
+
+.main-text {
+  width: 400px;
+}
+
+.main-text h1 {
+  font-size: 48px;
+  font-weight: 900;
+  color: #F9FAF8;
+}
+
+.main-text p {
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+.main-text button {
+  padding: 7px 30px;
+  background-color: #3882F6;
+  color: #F9FAF8;
+  border-radius: 8px;
+  border-style: none;
+  font-size: 18px;
+
+  transition: opacity 0.3s;
+}
+
+.main-text button:hover {
+  opacity: 0.5;
+}
+
+.img-container {
+  width: 500px;
+}
+
+.img-container img {
+  border-radius: 15px;
+  width: 100%;
 }
