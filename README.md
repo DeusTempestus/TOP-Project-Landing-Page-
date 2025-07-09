@@ -1,0 +1,1 @@
+This repository holds my landing page project pursuant to The Odin Project's second activity in the fundamentals course.
