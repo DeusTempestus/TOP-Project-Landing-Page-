@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header, .section-one, footer {
+  background-color: #1F2937;
+}
+
+header {
+  width: 100%;
+  padding: 30px;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+header, .section-one {
+  font-family: Roboto;
+}
+
+.logo {
+  margin-left: 140px;
+}
+
+.logo h3 {
+  font-size: 24px;
+  color: #F9FAF8;
+}
+
+.links {
+  margin-right: 160px;
+}
+
+.links a {
+  font-size: 18px;
+  color: #E5E7EB;
+  text-decoration: none;
+  margin-left: 15px;
+}
