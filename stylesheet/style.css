@@ -129,3 +129,26 @@ header, .section-one {
   text-align: center;
   padding: 10px 1px;
 }
+
+.section-three {
+  background-color: #E5E7EB;
+  padding: 150px;
+}
+
+.section-quote {
+  font-family: Roboto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.quote {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: lighter;
+}
+
+.quote-author {
+  align-self: flex-end;
+  font-size: 20px;
+}
